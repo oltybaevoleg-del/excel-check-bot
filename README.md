@@ -11,4 +11,18 @@
 
 ## Переменные окружения (Railway или .env)
 
+BOT_TOKEN=...
+GROUP_CHAT_ID=-100...
+ALLOWED_USERS=ID_пользователей, кто может загружать
+
+## Запуск локально (если когда-нибудь понадобится)
+
+pip install -r requirements.txt
+python main.py
+
+## Деплой
+
+Проект разворачивается на Railway через GitHub.
+
+
 
